@@ -71,10 +71,14 @@ Validations
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Application UI</title>
 </head>
 <body>
+ <h1>Home Page</h1>
   <img src="https://i.imgur.com/9C0zZ0P.png"  alt="homepage" />
+ <br />
+  <h1>User Detail Page</h1>
+  <img src="https://i.imgur.com/AQSfbGP.png"  alt="userdetailspage" />
 </body>
 </html>
 
