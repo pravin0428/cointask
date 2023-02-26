@@ -17,7 +17,7 @@ function Home() {
         "https://cointabdatabase.onrender.com/userFetch"
       );
 
-      console.log(data, "data in home page^^^^^^");
+      // console.log(data, "data in home page^^^^^^");
       setLoading(false);
       toast({
         status: "success",
