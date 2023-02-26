@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 app.post("/userFetch", async (req, res) => {
   try {
-    let data = await axios.get("https://randomuser.me/api/?results=100");
+    let data = await axios.get("https://randomuser.me/api/?results=50");
     let result = data.data.results;
     let users = await UserModel.insertMany(result);
      console.log(users);
