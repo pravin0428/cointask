@@ -79,6 +79,13 @@ Validations
  <br />
   <h1>User Detail Page</h1>
   <img src="https://i.imgur.com/AQSfbGP.png"  alt="userdetailspage" />
+ <br />
+  <h1>Dark Mode UI</h1>
+  <h2>Home Page</h2>
+  <img src="https://i.imgur.com/qOyzKN4.png"  alt="homepage" />
+ <br />
+  <h2>User Detail Page</h2>
+  <img src="https://i.imgur.com/Ey0UNvv.png"  alt="userdetailspage" />
 </body>
 </html>
 
