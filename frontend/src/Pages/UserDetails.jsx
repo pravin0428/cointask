@@ -23,7 +23,6 @@ import {
 function UserDetails() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
-  const [totalUserCount, setTotalUserCount] = useState(0);
   const [page, setPage] = useState(1);
   const [filter, setFilter] = useState("");
   const [totalPages, setTotalPages] = useState(10);
@@ -46,7 +45,7 @@ function UserDetails() {
       // console.log(res.data, res.data.totalPages, "******");
       setData(res.data.data);
       setLoading(false);
-      setTotalUserCount(res.data.data.length * res.data.totalPages);
+
       setTotalPages(res.data.totalPages);
     });
     // setLoading(false);
@@ -86,11 +85,6 @@ function UserDetails() {
             justifyContent="flex-end"
             gap="20px"
           >
-            <Box display="flex" alignItems="start"
-            //  border="1px solid green"
-             >
-              <h2>Total Users : {totalUserCount}</h2>
-            </Box>
             <Box p={4} display="flex" alignItems="center" gap="10px">
               {" "}
               <h3>Filters</h3>
@@ -99,7 +93,7 @@ function UserDetails() {
             <Select
               placeholder="Gender"
               value={filter}
-              w="150px"
+              w="155px"
               onChange={handleFilter}
             >
               <option value="male">Male</option>
